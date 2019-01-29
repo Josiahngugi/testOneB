@@ -11,7 +11,13 @@ public class memorize {
     }
 
     public static void main(String[] args) {
+        
+        try{
         memorize t = new memorize();
         t.memorize();
+    }catch(Exception e){
+            System.out.println(e)
+        }
+        
     }
 }
